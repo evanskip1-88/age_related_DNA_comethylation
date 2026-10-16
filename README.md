@@ -63,7 +63,7 @@ The Figshare dataset contains four archives:
 
 Individual-level DNA methylation measurements and participant metadata from Generation Scotland are not distributed through this repository. Access to the underlying data is subject to Generation Scotland's data-access procedures.
 
-## Reproducing downstream analyses
+## Running analyses
 
 After obtaining the Figshare archives, extract the reference data into the repository root:
 

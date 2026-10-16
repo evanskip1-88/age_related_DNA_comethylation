@@ -71,8 +71,6 @@ After obtaining the Figshare archives, extract the reference data into the repos
 tar -xzf reference_data.tar.gz
 ```
 
-```bash
-
 # Extract derived results
 ```bash
 mkdir -p results

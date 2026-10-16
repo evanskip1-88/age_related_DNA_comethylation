@@ -6,7 +6,7 @@ Code accompanying the manuscript:
 
 This repository contains R, Bash and SLURM scripts used to investigate age-related changes in DNA co-methylation networks using whole-blood DNA methylation data from Generation Scotland.
 
-The analyses examine co-methylation module organisation, network preservation, sex-stratified network dynamics and age-associated changes in pairwise CpG correlations.
+The analyses examine age-associated changes in pairwise CpG correlations and co-methylation networks as well as sex-stratified age-associated network dynamics, using a large cohort of human DNA methylation data from the Generation Scotland cohort.
 
 ## Repository structure
 
@@ -83,11 +83,11 @@ tar -xzf 03_pairwise_correlations.tar.gz -C results/
 
 The scripts under `analysis/` can then be used to reproduce downstream analyses and figures, subject to the required R packages, software dependencies and computing environment.
 
-Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results.
+Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results.  As such, the results linked to scripts associated with data pre-processing are not reproducible. However, most of the other downstream analyses that do not require individual-level data are reproducible by using the above archived Figshare data.  
 
 ## Software
 
-Analyses were conducted primarily in R. Specialised bioinformatics software used includes, GCTA, WGCNA and MAGMA, together with packages for DNA methylation analysis, genomic annotation, functional enrichment, statistical modelling, and visualisation.
+Analyses were conducted primarily in R. Specialised bioinformatics software used includes GCTA, WGCNA and MAGMA, together with packages for DNA methylation analysis, genomic annotation, functional enrichment, statistical modelling, and visualisation.
 
 Data processing and computationally intensive analyses were performed on high-performance computing (HPC) infrastructure using Bash and the SLURM workload manager. Downstream statistical analyses and visualisation were primarily conducted in R.
 

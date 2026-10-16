@@ -57,7 +57,7 @@ The Figshare dataset contains four archives:
 1. `01_wgcna_combined_sex.tar.gz`
 2. `02_wgcna_within_sex.tar.gz`
 3. `03_pairwise_correlations.tar.gz`
-4. `natcomm_reference_data.tar.gz`
+4. `reference_data.tar.gz`
 
 **Figshare DOI:** To be added following approval and publication.
 
@@ -68,7 +68,7 @@ Individual-level DNA methylation measurements and participant metadata from Gene
 After obtaining the Figshare archives, extract the reference data into the repository root:
 
 ```bash
-tar -xzf natcomm_reference_data.tar.gz
+tar -xzf reference_data.tar.gz
 ```
 
 Extract the derived results into `results/`:

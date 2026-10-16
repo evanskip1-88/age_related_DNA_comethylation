@@ -6,7 +6,7 @@ Code accompanying the manuscript:
 
 This repository contains R, Bash and SLURM scripts used to investigate age-related changes in DNA co-methylation networks using whole-blood DNA methylation data from Generation Scotland.
 
-The analyses examine age-associated changes in pairwise CpG correlations and co-methylation networks as well as sex-stratified age-associated network dynamics, using a large cohort of human DNA methylation data from the Generation Scotland cohort.
+The analyses examine age-associated changes in pairwise CpG correlations and co-methylation networks as well as sex-stratified age-associated network dynamics, using a large cohort of human DNA methylation data from the Generation Scotland<sup>1,2</sup>.
 
 **Preprint:** [Read the preprint](https://doi.org/10.64898/2026.09.13.751212)
 
@@ -16,8 +16,8 @@ The analyses examine age-associated changes in pairwise CpG correlations and co-
 
 Scripts for:
 - DNA methylation preprocessing and residualisation
-- Construction of reference co-methylation networks using WGCNA
-- Module preservation across eight age groups
+- Construction of reference co-methylation networks using WGCNA<sup>3</sup>
+- Module preservation across eight age groups<sup>4</sup>
 - Module characterisation and functional enrichment
 - Downstream associations and visualisation
 
@@ -104,3 +104,9 @@ Data processing and computationally intensive analyses were performed on high-pe
 - Input and output paths may need to be configured for the user's environment.
 - Generated figures are not included as pre-rendered files.
 - The repository and associated Figshare dataset will be made publicly available following the necessary approvals.
+  
+## References
+1. R. M. Walker et al., Data Resource Profile: Whole-Blood DNA Methylation Resource in Generation Scotland (MeGS). Int J Epidemiol 54, (2025).
+2. H. Milbourn et al., Generation Scotland: an update on Scotland's longitudinal family health study. BMJ Open 14, e084719 (2024).
+3. P. Langfelder, R. Luo, M. C. Oldham, S. Horvath, Is my network module preserved and reproducible? PLoS Comput Biol 7, e1001057 (2011).
+4. P. Langfelder, S. Horvath, WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008).

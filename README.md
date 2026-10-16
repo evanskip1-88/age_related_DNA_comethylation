@@ -61,7 +61,9 @@ The Figshare dataset contains four archives:
 3. `03_pairwise_correlations.tar.gz`
 4. `reference_data.tar.gz`
 
-**Figshare DOI:** To be added after Allan approves data sharing
+> [!IMPORTANT]
+> **Figshare DOI:** Pending Allan's review and approval of the derived results and reference datasets for public release.
+
 
 Individual-level DNA methylation measurements and participant metadata from Generation Scotland are not distributed through this repository. Access to the underlying data is subject to Generation Scotland's data-access procedures.
 

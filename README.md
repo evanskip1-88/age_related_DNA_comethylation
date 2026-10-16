@@ -8,6 +8,8 @@ This repository contains R, Bash and SLURM scripts used to investigate age-relat
 
 The analyses examine age-associated changes in pairwise CpG correlations and co-methylation networks as well as sex-stratified age-associated network dynamics, using a large cohort of human DNA methylation data from the Generation Scotland cohort.
 
+**Preprint:** [Read the preprint](https://doi.org/10.64898/2026.09.13.751212)
+
 ## Repository structure
 
 ### `analysis/01_wgcna_combined_sex/`

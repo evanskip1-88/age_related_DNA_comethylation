@@ -83,7 +83,7 @@ tar -xzf 03_pairwise_correlations.tar.gz -C results/
 
 The scripts under `analysis/` can then be used to reproduce downstream analyses and figures, subject to the required R packages, software dependencies and computing environment.
 
-Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results.  As such, the results linked to scripts associated with data pre-processing are not reproducible. However, most of the other downstream analyses that do not require individual-level data are reproducible by using the above archived Figshare data.  
+Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results. The initial data-processing analyses cannot be reproduced without authorised access to the underlying Generation Scotland data.
 
 ## Software
 

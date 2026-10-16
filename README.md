@@ -110,5 +110,5 @@ Data processing and computationally intensive analyses were performed on high-pe
 ## References
 1. R. M. Walker et al., Data Resource Profile: Whole-Blood DNA Methylation Resource in Generation Scotland (MeGS). Int J Epidemiol 54, (2025).
 2. H. Milbourn et al., Generation Scotland: an update on Scotland's longitudinal family health study. BMJ Open 14, e084719 (2024).
-3. P. Langfelder, R. Luo, M. C. Oldham, S. Horvath, Is my network module preserved and reproducible? PLoS Comput Biol 7, e1001057 (2011).
-4. P. Langfelder, S. Horvath, WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008).
+3. P. Langfelder, S. Horvath, WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008).
+4. P. Langfelder, R. Luo, M. C. Oldham, S. Horvath, Is my network module preserved and reproducible? PLoS Comput Biol 7, e1001057 (2011).

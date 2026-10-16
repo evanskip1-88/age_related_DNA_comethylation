@@ -1,0 +1,28 @@
+# Reference data and derived results stored on Figshare
+/data/*
+!/data/README.md
+
+/results/*
+!/results/README.md
+
+# Compressed archives
+*.tar
+*.tar.gz
+*.zip
+
+# Generated figures
+/figures/*
+!/figures/README.md
+
+# Temporary R files
+.Rhistory
+.RData
+.Rproj.user/
+
+# HPC logs
+*.out
+*.err
+*.log
+
+# macOS
+.DS_Store

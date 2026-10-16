@@ -87,7 +87,9 @@ Analyses that begin with individual-level Generation Scotland data require autho
 
 ## Software
 
-The analyses use R, WGCNA and associated statistical and genomic analysis packages. Bash and SLURM scripts support execution on high-performance computing infrastructure.
+Analyses were conducted primarily in R, supported by specialised bioinformatics software, including WGCNA and MAGMA, together with packages for DNA methylation analysis, genomic annotation, functional enrichment, statistical modelling, and visualisation.
+
+Data processing and computationally intensive analyses were performed on high-performance computing (HPC) infrastructure using Bash and the SLURM workload manager. Downstream statistical analyses and visualisation were primarily conducted in R.
 
 ## Notes
 

@@ -72,6 +72,7 @@ tar -xzf reference_data.tar.gz
 ```
 
 ## Extract derived results
+
 ```bash
 mkdir -p results
 
@@ -82,7 +83,7 @@ tar -xzf 03_pairwise_correlations.tar.gz -C results/
 
 The scripts under `analysis/` can then be used to reproduce downstream analyses and figures, subject to the required R packages, software dependencies and computing environment.
 
-Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results. The initial data-processing analyses cannot be reproduced without authorised access to the underlying Generation Scotland data.
+Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results.
 
 ## Software
 

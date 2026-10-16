@@ -65,13 +65,15 @@ Individual-level DNA methylation measurements and participant metadata from Gene
 
 ## Running the analyses
 
-After obtaining the Figshare archives, extract the reference data into the repository root:
+Download the four compressed archives from the associated Figshare dataset and place them in the repository root directory.
+
+### 1. Extract reference datasets
 
 ```bash
-tar -xzf reference_data.tar.gz
+tar -xzf natcomm_reference_data.tar.gz
 ```
 
-## Extract derived results
+### 2. Extract derived analysis results
 
 ```bash
 mkdir -p results
@@ -81,9 +83,11 @@ tar -xzf 02_wgcna_within_sex.tar.gz -C results/
 tar -xzf 03_pairwise_correlations.tar.gz -C results/
 ```
 
-The scripts under `analysis/` can then be used to reproduce downstream analyses and figures, subject to the required R packages, software dependencies and computing environment.
+### 3. Reproduce downstream analyses
 
-Analyses that begin with individual-level Generation Scotland data require authorised access and cannot be reproduced solely from the deposited derived results.
+The scripts in `analysis/` can be used to reproduce downstream statistical analyses, functional enrichment results, and manuscript figures using the extracted data, subject to the required software dependencies and computing environment.
+
+Analyses that require individual-level Generation Scotland DNA methylation data cannot be reproduced using the deposited files alone. Access to these data requires authorisation through Generation Scotland.
 
 ## Software
 

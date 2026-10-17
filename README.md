@@ -4,11 +4,11 @@ Code accompanying the manuscript:
 
 **"Age-related dynamics of DNA co-methylation modules in humans"**
 
+**Preprint**: [Read the preprint](https://doi.org/10.64898/2026.09.13.751212)
+
 This repository contains R, Bash and SLURM scripts used to investigate age-related changes in DNA co-methylation networks using whole-blood DNA methylation data from Generation Scotland.
 
 The analyses examine age-associated changes in pairwise CpG correlations and co-methylation networks as well as sex-stratified age-associated network dynamics, using a large cohort of human DNA methylation data from the Generation Scotland<sup>1,2</sup>.
-
-**Preprint**: [Read the preprint](https://doi.org/10.64898/2026.09.13.751212)
 
 ## Repository structure
 

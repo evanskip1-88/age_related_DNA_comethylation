@@ -101,9 +101,8 @@ Data processing and computationally intensive analyses were performed on high-pe
 
 - Scripts are organised by analytical workflow.
 - Some computationally intensive analyses require HPC resources.
-- Input and output paths may need to be configured for the user's environment.
-- Generated figures are not included as pre-rendered files.
-- The repository and associated Figshare dataset will be made publicly available following the necessary approvals.
+- Input and output paths need to be configured for the user's environment.
+- Generated figures are not included as pre-rendered files in the `figures/`
   
 ## References
 1. R. M. Walker et al., Data Resource Profile: Whole-Blood DNA Methylation Resource in Generation Scotland (MeGS). Int J Epidemiol 54, (2025).

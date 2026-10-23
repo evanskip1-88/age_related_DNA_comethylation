@@ -70,7 +70,7 @@ Download the four compressed archives from the associated Figshare dataset and p
 ### 1. Extract reference datasets
 
 ```bash
-tar -xzf natcomm_reference_data.tar.gz
+tar -xzf reference_data.tar.gz
 ```
 
 ### 2. Extract derived analysis results
